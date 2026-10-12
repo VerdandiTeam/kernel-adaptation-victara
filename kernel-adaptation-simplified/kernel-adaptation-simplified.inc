@@ -89,7 +89,6 @@ export PATH=/opt/cross/bin/:$PATH
 defconfig_name=$(basename %{defconfig})
 [ -e "./%{defconfig}" ] && cp -f ./%{defconfig} %{source_directory}/arch/%{kernel_arch}/configs/$defconfig_name
 
-make -C %{source_directory} clean
 make -C %{source_directory} defconfig KBUILD_DEFCONFIG=$defconfig_name
 
 %if %{build_Image}
