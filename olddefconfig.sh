@@ -2,8 +2,8 @@
 set -e
 
 DIR="$(cd "$(dirname "$0")" && pwd)"
-CONFIG="$DIR/config-motorola-victara.armv7"
-LINUX="${LINUX:-$DIR/../linux}"
+CONFIG="$DIR/sfos-victara_defconfig"
+LINUX="${LINUX:-$DIR/linux}"
 OUT="$(mktemp -d)"
 
 trap 'rm -rf "$OUT"' EXIT

@@ -1,3 +1,6 @@
 [submodule "linux"]
 	path = linux
 	url = git@github.com:VerdandiTeam/victara-mainline-linux.git
+[submodule "kernel-adaptation-simplified"]
+	path = kernel-adaptation-simplified
+	url = git@github.com:VerdandiTeam/kernel-adaptation-simplified.git
