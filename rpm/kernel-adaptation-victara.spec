@@ -35,7 +35,7 @@
 %define deviceinfo_flash_offset_ramdisk 0x02000000
 %define deviceinfo_flash_offset_second 0x00f00000
 %define deviceinfo_flash_offset_tags 0x00000100
-%define deviceinfo_kernel_cmdline console=tty0 loglevel=1 systemd.show_status=false vt.global_cursor_default=0 clk_ignore_unused pd_ignore_unused lk2nd.pass-simplefb=autorefresh msm.allow_vram_carveout=1 msm.vram=128m
+%define deviceinfo_kernel_cmdline console=tty0 loglevel=1 systemd.show_status=false vt.global_cursor_default=0 lk2nd.pass-simplefb=autorefresh msm.allow_vram_carveout=1 msm.vram=128m
 %define deviceinfo_bootimg_os_version 0
 %define deviceinfo_bootimg_os_patch_level 0
 %define deviceinfo_bootimg_header_version 0
